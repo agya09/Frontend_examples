@@ -1,13 +1,14 @@
 .banner{
-    background-image: url(banner.jpg);
+    background-image: url(background.jpg);
     height: 200px;
-    width: 100%;
+    width: 102.3%;
     text-align: center;
     color: white;
-    opacity: 0.8;
+    position: relative;
+    margin-left: -15px;
 }
 .footer{
-    background-color: rgb(218, 57, 57);
+    background-color: #ef4d48;
     color: antiquewhite;
     height: 50px;
     position: relative;
