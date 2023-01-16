@@ -5,100 +5,224 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="aboutus.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/364b98a250.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <div class="aboutus">
-        <center><span>About Us</span></center>
-
-    </div>
-    <div class="introduction">
-        <h3 class="introduction">Introduction</h3>
-        <br>
-        <p class="introduction">
-            CSITAN is an autonomous, non-profitable, nongovernmental, non-political, service oriented social
-            organization established by the young energetic BSc CSIT students in 2011 to act as a bridge between the
-            faculty, students and IT industries in Nepal. The organization is currently expanded to around 10000
-            students from 60+ colleges all over the nation. Apart from the central committee in Kathmandu, we also have
-            our regional committees in five other regions: Chitwan, Butwal, Rupandehi, Pokhara and Purwanchal.
-
-        </p>
-
-    </div>
-
-    <div class="img">
-        <img src="group_photo.jpeg" alt="" height="342px">
-    </div>
-    <div class="introductioncontinue">
-        <p>
-            We have been working to extend our regional committees to other parts of the country as well. CSITAN has
-            been actively involved in various activities from the past eight years to bridge the gaps between
-            university, industry and the students. Besides this, we have been organizing workshops and seminars for
-            students to improve their knowledge about different aspects of computer science and information technology.
-            CSITAN is believed to have the prodigious potential to evolve. We aspire to be an organization that will be
-            an integral part of every IT College and student, leading and motivating them to excellence. We have been
-            conducting several IT Seminars, exhibitions and counselling programs in different IT colleges throughout the
-            year. We ensure to organize at least one program each month endeavoring to match our motto: “Calibrating
-            Technical Potentials”. We have successfully organized various programs in the past.
-
-        </p>
-    </div>
-
-    <div class="ourvision">
-        <h3 class="ourvision">Our Vision</h3>
-        <p>
-            Our one and only vision is to promote CSIT sector and empower tech professionals for the betterment of the
-            country.
-        </p>
-    </div>
-
-    <div class="ourmission">
-        <h3 class="ourmission">Our Mission</h3>
-        <li>
-            To work with students, faculties, IT professionals and people all over the country for the enhancement of
-            computer science students and help them transition into a skilled tech professional in the country.
-        </li> <br>
-        <li>
-            To serve as a platform between the IT students, faculty and the tech Industries to communicate and work hand
-            in hand with each other.
-        </li>
-
-
+<body style="background-color: #f7f2f2;">
+    <!-- NAVBAR  -->
+    <div class="nav">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-primary bg-white shadow-lg" style="height: 78px">
+            <a class="navbar-brand" href="#">
+                <img src="CSITAN-logo.png" style="height: 50px; margin-left: 60px" alt="" />
+            </a>
+            <ul class="navbar-nav mr-auto font-weight-bold" style="font-size: 18px; margin-left: 30%">
+                <li class="nav-item active mx-3">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown mx-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> CSITAN </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown mx-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> CSIT </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="blogs.html">Blogs</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="events.html">Events</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Jobs</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 
-    <div class="ourgoals">
-        <h3 class="ourgoals">Our Goals</h3>
-        <li>
-            To prepare the skilled IT professionals after the end of student’s academic journey.
-        </li> <br>
-        <li>
-            To address a student’s problem regarding the academic field and raise it to the concerned parties.
-        </li> <br>
-        <li>
-            To develop the IT field in all areas of the country as well empower women in the technology sector.
-        </li> <br>
-        <li>
-            To organize various conferences, seminars, training and events for students and professionals for the
-            prosperity of Tech community of Nepal.
-        </li> <br>
-        <li>
-            To make people aware about the importance of IT and promote the user of technology in their daily lives.
-        </li> <br>
 
+    <!-- ABOUT US  -->
+    <div class="container-fluid" style="margin-top: 60px; ">
+        <div class="banner">
+            <h1 style="padding: 80px 0px 0px 0px;">About Us</h1>
+        </div>
     </div>
 
-    <footer>
-        <center class="footer">
-            Copyright <span>&copy;</span> 2023 CSIT Association of Nepal-CSITAN | Powered by CSIT Association of
-            Nepal-CSITAN
-        </center>
-    </footer>
 
+    <!-- INTRODUCTION  -->
+    <div class="card mb-12 mt-4" style="border: none; background-color: #f7f2f2;">
+        <div class="row g-10">
+            <div class="col-md-2">
+                <p></p>
+            </div>
+
+            <div class="col-md-4  ml-10 pr-3 pl-5">
+                <h2 class="introduction">Introduction</h2>
+                <br> <br>
+                <p>CSITAN is an autonomous, non-profitable, nongovernmental, non-political, service oriented social
+                    organization established by the young energetic BSc CSIT students in 2011 to act as a bridge between
+                    the faculty, students and IT industries in Nepal. The organization is currently expanded to around
+                    10000 students from 60+ colleges all over the nation. Apart from the central committee in Kathmandu,
+                    we also have our regional committees in five other regions: Chitwan, Butwal, Rupandehi, Pokhara and
+                    Purwanchal. </p>
+            </div>
+            <div class="col-md-4 mt-3">
+                <img src="group_photo.jpeg" class="img-fluid rounded-start " alt="...">
+            </div>
+
+            <div class="col-md-2">
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card mb-12 mt-2" style="border: none; background-color: #f7f2f2;">
+        <div class="row g-10">
+            <div class="col-md-2">
+                <p></p>
+            </div>
+
+            <div class="col-md-8  ml-10 pr-3 pl-5">
+                <p>We have been working to extend our regional committees to other parts of the country as well. CSITAN
+                    has been actively involved in various activities from the past eight years to bridge the gaps
+                    between university, industry and the students. Besides this, we have been organizing workshops and
+                    seminars for students to improve their knowledge about different aspects of computer science and
+                    information technology. CSITAN is believed to have the prodigious potential to evolve. We aspire to
+                    be an organization that will be an integral part of every IT College and student, leading and
+                    motivating them to excellence. We have been conducting several IT Seminars, exhibitions and
+                    counselling programs in different IT colleges throughout the year. We ensure to organize at least
+                    one program each month endeavoring to match our motto: “Calibrating Technical Potentials”. We have
+                    successfully organized various programs in the past.</p>
+            </div>
+
+            <div class="col-md-2">
+                <p></p>
+            </div>
+
+        </div>
+    </div>
+    <br>
+
+
+    <!-- OUR VISION  -->
+    <div class="card mb-12 mt-4" style="border: none; background-color: #f7f2f2;">
+        <div class="row g-10">
+            <div class="col-md-2">
+                <p></p>
+            </div>
+
+            <div class="col-md-8  ml-10 pr-3 pl-5">
+                <h2 class="introduction">Our Vision</h2>
+                <br> <br>
+                <p>Our one and only vision is to promote CSIT sector and empower tech professionals for the betterment
+                    of the country. </p>
+            </div>
+
+            <div class="col-md-2">
+                <p></p>
+            </div>
+        </div>
+    </div> <br>
+
+
+    <!-- OUR MISSION  -->
+    <div class="card mb-12 mt-4" style="border: none; background-color: #f7f2f2;">
+        <div class="row g-10">
+            <div class="col-md-2">
+                <p></p>
+            </div>
+
+            <div class="col-md-8  ml-10 pr-3 pl-5">
+                <h2 class="introduction">Our Mision</h2>
+                <br> <br>
+                <li class="list">
+                    To work with students, faculties, IT professionals and people all over the country for the
+                    enhancement of computer science students and help them transition into a skilled tech 
+                    professional in the country.
+                </li> <br>
+                <li class="list">
+                    To serve as a platform between the IT students, faculty and the tech Industries to communicate and
+                    work hand in hand with each other.
+                </li>
+            </div>
+
+            <div class="col-md-2">
+                <p></p>
+            </div>
+        </div>
+    </div> <br>
+
+
+    <!-- OUR GOALS  -->
+    <div class="card mb-12 mt-4" style="border: none;background-color: #f7f2f2;">
+        <div class="row g-10">
+            <div class="col-md-2">
+                <p></p>
+            </div>
+
+            <div class="col-md-8  ml-10 pr-3 pl-5">
+                <h2 class="introduction">Our Goals</h2>
+                <br> <br>
+                <li class="list">
+                    To prepare the skilled IT professionals after the end of student&apos;s academic journey.
+                </li> <br>
+                <li class="list">
+                    To address a student&apos;s problem regarding the academic field and raise it to the concerned
+                    parties.
+                </li> <br>
+                <li class="list">
+                    To develop the IT field in all areas of the country as well empower women in the technology sector.
+                </li> <br>
+                <li class="list">
+                    To organize various conferences, seminars, training and events for students and professionals for
+                    the prosperity of Tech community of Nepal.
+                </li> <br>
+                <li class="list">
+                    To make people aware about the importance of IT and promote the user of technology in their daily
+                    lives.
+                </li> <br>
+            </div>
+
+
+            <div class="col-md-2">
+                <p></p>
+            </div>
+        </div>
+    </div> <br>
+
+
+    <!-- FOOTER  -->
+
+    </div>
+    <div class="footer">
+        <h6 class="pt-3">Copyright <span>&copy;</span> 2023 CSIT-Association of Nepal | Pokhara | Developed by team B</h6>
+    </div>
 
 
 </body>
