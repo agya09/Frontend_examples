@@ -1,0 +1,67 @@
+button{
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    background-color: #ef4d48;
+    margin-left: 210px;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    
+    
+}
+
+button:hover{
+    background-color: #ff0800;
+}
+
+.container-card{
+    margin-left: 200px;
+}
+
+.images1{
+    height: 50px;
+    width: 60px;
+    margin-left: 70px;
+    
+}
+
+.jb-job-title{
+    margin: 14px;
+    position: relative;
+    top: -20px;
+    
+}
+.jb-row-left-side1{
+    margin-left:135px ;
+    position:relative;
+    top: -20px;
+}
+
+.box{
+    
+    margin-left: 1100px;
+    position: relative;
+    top: -65px;
+    color: #ef4d48;
+    
+        
+    
+    
+    
+}
+
+hr{
+    margin-left: 70px;
+    margin-right: 150px;
+    
+}
+
+.input-group{
+    margin-left: 20px;
+}
+ 
