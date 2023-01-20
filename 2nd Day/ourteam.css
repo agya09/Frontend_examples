@@ -1,0 +1,40 @@
+
+body{
+    background-color: #ebb9b1;
+    overflow-x: hidden;
+}
+.banner{
+  background-image: url(background.jpg);
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  color: yellow;
+}
+.footer{
+    background-color: #ce4445;
+    color: antiquewhite;
+    height: 80px;
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .card-title{
+    text-align: center;
+    color: #F24843;
+}
+p.card-text{
+    text-align: center;
+    color:#03B0EE;;
+}
+.col-md-2{
+height: 300px;
+}
+.col-md-3{
+  height: 320px;
+}
+div.img.card-img-top{
+  height: 132px;
+  width: 132px;
+}
