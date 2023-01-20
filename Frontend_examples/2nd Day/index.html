@@ -3,70 +3,68 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>CSITAN || POKHARA</title>
-
-    <title>CSITAN || POKHARA</title>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://use.fontawesome.com/364b98a250.js"></script>    
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
   </head>
   <body>
-    <div class="container">
-      <nav class="navbar fixed-top navbar-expand-md navbar-primary bg-white shadow-lg d-flex" style="height:78px;">
-        <a class="navbar-brand" href="#">
-          <img src="CSITAN-logo.png" style="height: 50px;" alt="">
-        </a>   
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon">
-                <i class="fa fa-bars" style="color: blue;" aria-hidden="true"></i>                </span>
-          </button>
+    
+    
+    <nav class="navbar navbar-expand-lg " style="background-color:#FFFBFF; height: 85px;" >
+   
+      <div class="container-fluid ">
+        <img width="100" height="54" src="../photos/CSITAN-logo.png"  class="attachment-large size-large wp-image-51" style="margin-left: 150px;" alt="CSITAN-logo" loading="lazy" srcset="https://csitan.org.np/wp-content/uploads/2021/12/CSITAN-logo.png 1x, https://csitan.org.np/wp-content/uploads/2021/12/CSITAN-logo.png" sizes="(max-width: 100px) 10vw, 14px" href="#">
         
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto font-weight-bold" style="font-size:18px;">
-            <li class="nav-item active mx-3">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="#" style="margin-left: 600px; margin-right: 25px; color: #ef4d48; font-weight: bold; font-size: large;">Home</a>
             </li>
-            <li class="nav-item dropdown mx-3">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 25px; color:#00b0ef; font-weight: bold; font-size: large;">
                 CSITAN
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="aboutus.html">About Us</a>
-                <a class="dropdown-item" href="#">Our Team</a>
-              </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Our Team</a></li>
+               
+              </ul>
             </li>
-            <li class="nav-item dropdown mx-3">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" style="margin-right: 25px; color: #00b0ef; font-weight: bold; font-size: large;">Regional</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 25px; color: #00b0ef; font-weight: bold; font-size: large;">
                 CSIT
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">About CSIT</a>
-                <a class="dropdown-item" href="#">CSIT Colleges</a>
-              
-              </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#" >About CSIT</a></li>
+                <li><a class="dropdown-item" href="#" >Colleges</a></li>
+               
+              </ul>
             </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="blogs.html">Blogs</a>
+            <li class="nav-item">
+              <a class="nav-link active" href="#" style="margin-right: 25px; color: #00b0ef; font-weight: bold; font-size: large;">Blogs</a>
             </li>
-            <li class="nav-item mx-3">
-                <a class="nav-link" href="events.html">Events</a>
+            <li class="nav-item">
+              <a class="nav-link active" href="#" style="margin-right: 25px; color: #00b0ef; font-weight: bold; font-size: large;">Events</a>
             </li>
-            <li class="nav-item mx-3">
-                <a class="nav-link" href="#">Jobs</a>
-            </li>
-            <li class="nav-item mx-3">
-                <a class="nav-link" href="contact.html">Contact</a>
+            <li class="nav-item">
+              <a class="nav-link active" href="#" style="margin-right: 25px; color: #00b0ef; font-weight: bold; font-size: large;">Contact Me</a>
             </li>
           </ul>
+          
         </div>
-      </nav>
-    </div>
-    <hr>
+      </div>
+    </nav>
+  </div>
+    
+ 
+
+
 
   <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">

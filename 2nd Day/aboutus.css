@@ -1,0 +1,41 @@
+body{
+    background-color: #ebb9b1;
+    overflow-x: hidden;
+}
+.banner{
+  background-image: url(background.jpg);
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  color: yellow;
+}
+.footer{
+  background-color: #ce4445;
+  color: antiquewhite;
+  height: 80px;
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+p,li.list{
+font-family: lato;
+font-size: 19px;
+font-weight: 600;
+color: grey;
+}
+h2{
+  display:inline-block;
+  position:relative;
+  color: black;
+}
+h2::after{
+  content:'';
+  height:3px;
+  width:70%;
+  background:#d2202f;
+  position:absolute;
+  left:calc(50% - 50%);
+  bottom:-10px;
+}

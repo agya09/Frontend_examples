@@ -1,0 +1,20 @@
+.banner{
+    background-image: url(background.jpg);
+    height: 200px;
+    width: 102.3%;
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-left: -15px;
+}
+.footer{
+    background-color: #ef4d48;
+    color: antiquewhite;
+    height: 50px;
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+
+}
